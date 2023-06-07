@@ -71,7 +71,8 @@
     android:paddingEnd="@dimen/_12sdp"
     android:paddingBottom="@dimen/_12sdp"
     app:layout_constraintBottom_toTopOf="@+id/layoutquickactions"
-    app:layout_constraintTop_toBottomOf="@+id/layoutsearch" />
+    app:layout_constraintTop_toBottomOf="@+id/layoutsearch"
+    android:background="@drawable/back"/>
  <LinearLayout
      android:id="@+id/layoutquickactions"
      android:layout_width="match_parent"
